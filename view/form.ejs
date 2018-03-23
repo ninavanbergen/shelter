@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form action='/' method=post>
+      <label>
+        Name
+        <input type="text" name="name" value="name">
+      </label>
+      <label>
+        Type
+        <select name="type">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="rabbit">Rabbit</option>
+        </select>
+      </label>
+      <label>
+        Place
+        <select name="place">
+          <option value="Brooklyn Animal Care Center">Brooklyn Animal Care Center</option>
+          <option value="Manhattan Animal Care Center">Manhattan Animal Care Center</option>
+          <option value="Staten Island Animal Care Center">Staten Island Animal Care Center</option>
+        </select>
+      </label>
+      <label>
+        Description
+        <input type="text" name="description" value="description">
+      </label>
+      <label>
+        Sex
+        <input type="radio" name="sex" value="female">
+        Female
+        <input type="radio" name="sex" value="male">
+        Male
+      </label>
+      <label>
+        Age
+        <input type="number" name="age" value="age">
+      </label>
+      <label>
+        Size
+        <select name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+      </label>
+      <label>
+        Length
+        <select name="length">
+          <option value="short">Short</option>
+          <option value="medium">Medium</option>
+          <option value="long">Long</option>
+        </select>
+      </label>
+      <label>
+        Vaccinated
+        <input type="radio" name="vaccinated" value="true">
+        Yes
+        <input type="radio" name="vaccinated" value="false">
+        No
+      </label>
+      <label>
+        Declawed (Only for cats)
+        <input type="radio" name="declawed" value="true">
+        Yes
+        <input type="radio" name="declawed" value="false">
+        No
+      </label>
+      <label>
+        Coat
+        <select name="coat">
+          <option value="smooth">Smooth</option>
+          <option value="thick">Thick</option>
+        </select>
+      </label>
+      <label>
+        Primary Color
+        <input type="text" name="primaryColor" value="primaryColor">
+      </label>
+      <label>
+        Secondary Color
+        <input type="text" name="secondaryColor" value="secondaryColor">
+      </label>
+      <label>
+        Weight
+        <input type="number" name="weight" value="weight" step="0.1">
+      </label>
+      <label>
+        Intake
+        <input type="date" name="intake" value="intake">
+      </label>
+      <button name="button">Submit</button>
+    </form>
+  </body>
+</html>
